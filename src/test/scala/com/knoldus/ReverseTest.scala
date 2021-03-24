@@ -1,6 +1,5 @@
 package com.knoldus
 
-
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
@@ -26,7 +25,6 @@ class ReverseTest extends AnyFlatSpec with Matchers {
   // scalastyle:off magic.number
 
 
-
   // negative test case for reverseList method
   "Reverse of list   " should "not be incorrect  " in {
     assert(reverse.reverseList(List("56", 37, "65")) != List(37, "65", "56"))
@@ -47,5 +45,5 @@ class ReverseTest extends AnyFlatSpec with Matchers {
     assert(reverse.reverseString("Sagar") != "ragaS")
   }
 
-
 }
+
